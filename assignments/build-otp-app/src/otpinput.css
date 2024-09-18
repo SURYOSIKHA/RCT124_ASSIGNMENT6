@@ -1,0 +1,61 @@
+/* Styling the form container */
+.otp-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #f0f4f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the input container */
+.otp-inputs {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Styling each OTP input */
+.otp-input {
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #eddfdf;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focused input effect */
+.otp-input:focus {
+  border-color: #007bff;
+  box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.6);
+  outline: none;
+}
+
+/* Disabled submit button style */
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Styled submit button */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: palevioletred;
+}
